@@ -2423,10 +2423,11 @@ input, select, textarea {
 		.image img {
 			border-radius: 5px;
 			display: block;
+
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 30%;
 		}
 
 			/* .image.left img, .image.right img {
@@ -2449,30 +2450,31 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+
 		}
 
 			.image.fit img {
 				width: 100%;
+
 			}
 
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
-			border: red 2px solid;
 		}
 
 			.image.main img {
 				width: 100%;
-				border: red 2px solid;
 			}
 
-			.image.avatar img{
-				/* border: red 2px solid; */
-				/* border-radius: 190px; */
-				height: 320px;
-				width: 220px;
+			.picture.avatar img{
+				border-radius: 125px;
+				height: 250px;
+				width: 250px;
 				object-fit: cover;
+				margin: 3em 0 3em 2em;
+				display: inline-block;
 			}
 
 /* List */
